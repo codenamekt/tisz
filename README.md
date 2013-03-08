@@ -1,4 +1,4 @@
 tisz
 ====
 
-Playing with Parralax Scrolling
+Playing with Parallax Scrolling
