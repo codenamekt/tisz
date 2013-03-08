@@ -1,0 +1,339 @@
+body {
+	height: 700px;
+	width: 700px;
+	font-family: sans-serif;
+	font-size: 24pt;
+	background-color: #000;
+}
+div#container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 700px;
+	width: 700px;
+	font-family: sans-serif;
+	font-size: 24pt;
+	background-color: #000;
+	border: 1px solid #fff;
+	overflow: hidden;
+}
+/* City Background */
+@-webkit-keyframes citybg {
+	0% {
+		-webkit-transform: translateX(0);
+		-webkit-animation-timing-function: linear;
+	}
+	50% {
+		-webkit-transform: translateX(-490px);
+		-webkit-animation-timing-function: linear;
+	}
+	100% {
+		-webkit-transform: translateX(-980px);
+		-webkit-animation-timing-function: linear;
+	}
+}
+div#citybg1 {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 980px;
+	height: 420px;
+	background-image: url("../imgs/citybg.png");
+	-webkit-animation-name: citybg;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+}
+div#citybg2 {
+	position: absolute;
+	top: 30px;
+	left: 980px;
+	width: 980px;
+	height: 420px;
+	background-image: url("../imgs/citybg.png");
+	-webkit-animation-name: citybg;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+}
+/* City Midground */
+@-webkit-keyframes citymg {
+	0% {
+		-webkit-transform: translateX(0);
+		-webkit-animation-timing-function: linear;
+	}
+	50% {
+		-webkit-transform: translateX(-700px);
+		-webkit-animation-timing-function: linear;
+	}
+	100% {
+		-webkit-transform: translateX(-1400px);
+		-webkit-animation-timing-function: linear;
+	}
+}
+div#citymg1 {
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 1400px;
+	height: 600px;
+	background-image: url("../imgs/citymg.png");
+	-webkit-animation-name: citymg;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+}
+div#citymg2 {
+	position: absolute;
+	top: 40px;
+	left: 1400px;
+	width: 1400px;
+	height: 600px;
+	background-image: url("../imgs/citymg.png");
+	-webkit-animation-name: citymg;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+}
+.center {
+	text-align: center;
+}
+/* lbody_run */
+@-webkit-keyframes lbody_run {
+	0% {
+		-webkit-transform: translateY(0) rotate(0);
+		-webkit-animation-timing-function: linear;
+	}
+	20% {
+		-webkit-transform: translateY(-.1em) rotate(9deg);
+		-webkit-animation-timing-function: linear;
+	}
+	60% {
+		-webkit-transform: translateY(.1em) rotate(-9deg);
+		-webkit-animation-timing-function: linear;
+	}
+	80% {
+		-webkit-transform: translateY(0) rotate(0);
+		-webkit-animation-timing-function: linear;
+	}
+}
+/* leye_run */
+/*@-webkit-keyframes leye_run {
+	0% {
+		-webkit-transform: translateY(0em) rotate(0deg);
+		-webkit-animation-timing-function: linear;
+	}
+	20% {
+		-webkit-transform: translateY(-.05em);
+		-webkit-animation-timing-function: linear;
+	}
+	60% {
+		-webkit-transform: translateY(.05em);
+		-webkit-animation-timing-function: linear;
+	}
+	80% {
+		-webkit-transform: translateY(0em) rotate(0deg);
+		-webkit-animation-timing-function: linear;
+	}
+}*/
+/* rbody_run */
+@-webkit-keyframes rbody_run {
+	0% {
+		-webkit-transform: translateY(0) rotate(0);
+		-webkit-animation-timing-function: linear;
+	}
+	33% {
+		-webkit-transform: translateY(.1em) rotate(9deg);
+		-webkit-animation-timing-function: linear;
+	}
+	66% {
+		-webkit-transform: translateY(-.1em) rotate(-9deg);
+		-webkit-animation-timing-function: linear;
+	}
+	100% {
+		-webkit-transform: translateY(0) rotate(0);
+		-webkit-animation-timing-function: linear;
+	}
+}
+/* reye_run */
+/*@-webkit-keyframes reye_run {
+	0% {
+		-webkit-transform: translateY(0em) rotate(0deg);
+		-webkit-animation-timing-function: linear;
+	}
+	20% {
+		-webkit-transform: translateY(.05em);
+		-webkit-animation-timing-function: linear;
+	}
+	60% {
+		-webkit-transform: translateY(-.05em);
+		-webkit-animation-timing-function: linear;
+	}
+	80% {
+		-webkit-transform: translateY(0em) rotate(0deg);
+		-webkit-animation-timing-function: linear;
+	}
+}*/
+/* run */
+@-webkit-keyframes run {
+	0% {
+		-webkit-transform: translateX(0);
+		-webkit-animation-timing-function: linear;
+	}
+	60% {
+		-webkit-transform: translateX(760px);
+		-webkit-animation-timing-function: linear;
+	}
+	100% {
+		-webkit-transform: translateX(760px);
+		-webkit-animation-timing-function: linear;
+	}
+}
+#tisz_run {
+	position: absolute;
+	top: 590px;
+	left: -60px;
+	font-size: 1em;
+	color: #fff;
+	-webkit-animation-name: run;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+}
+#tisz_run * {
+	display: inline-block;
+	/* Hack for large characters being ourside of rendered space. */
+	padding: .08em .04em;
+	margin: -.08em -.04em;
+}
+#tisz_run #lbody {
+	-webkit-animation-name: lbody_run;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+/*#tisz_run #leye {
+	-webkit-animation-name: leye_run;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}*/
+#tisz_run #rbody {
+	-webkit-animation-name: rbody_run;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+/*#tisz_run #reye {
+	-webkit-animation-name: reye_run;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}*/
+/* Face Turn */
+@-webkit-keyframes scared_face {
+	0% {
+		-webkit-transform: translateX(0em);
+		-webkit-animation-timing-function: linear;
+	}
+	75% {
+		-webkit-transform: translateX(0em);
+		-webkit-animation-timing-function: linear;
+	}
+	77% {
+		-webkit-transform: translateX(-.25em);
+		-webkit-animation-timing-function: linear;
+	}
+	79% {
+		-webkit-transform: translateX(-.5em);
+		-webkit-animation-timing-function: linear;
+	}
+	81% {
+		-webkit-transform: translateX(-.25em);
+		-webkit-animation-timing-function: linear;
+	}
+	83% {
+		-webkit-transform: translateX(0em);
+		-webkit-animation-timing-function: linear;
+	}
+	100% {
+		-webkit-transform: translateX(0em);
+		-webkit-animation-timing-function: linear;
+	}
+}
+/* Arms */
+@-webkit-keyframes scared_arms {
+	0% {
+		-webkit-transform: translateX(0em) rotateY(0);
+		-webkit-animation-timing-function: linear;
+	}
+	75% {
+		-webkit-transform: translateX(0em) rotateY(0);
+		-webkit-animation-timing-function: linear;
+	}
+	77% {
+		-webkit-transform: translateX(-.5em) rotateY(90deg);
+		-webkit-animation-timing-function: linear;
+	}
+	79% {
+		-webkit-transform: translateX(-1em) rotateY(180deg);
+		-webkit-animation-timing-function: linear;
+	}
+	81% {
+		-webkit-transform: translateX(-.5em) rotateY(90deg);
+		-webkit-animation-timing-function: linear;
+	}
+	83% {
+		-webkit-transform: translateX(0em) rotateY(0deg);
+		-webkit-animation-timing-function: linear;
+	}
+	100% {
+		-webkit-transform: translateX(0em) rotateY(0deg);
+		-webkit-animation-timing-function: linear;
+	}
+}
+@-webkit-keyframes scared {
+	0% {
+		-webkit-transform: translateX(760px) rotateY(180deg);
+		-webkit-animation-timing-function: linear;
+	}
+	60% {
+		-webkit-transform: translateX(760px) rotateY(180deg);
+		-webkit-animation-timing-function: linear;
+	}
+	75% {
+		-webkit-transform: translateX(430px) rotateY(180deg);
+		-webkit-animation-timing-function: linear;
+	}
+	85% {
+		-webkit-transform: translateX(430px) rotateY(180deg);
+		-webkit-animation-timing-function: linear;
+	}
+	100% {
+		-webkit-transform: translateX(-100px) rotateY(180deg);
+		-webkit-animation-timing-function: linear;
+	}
+}
+#tisz_scared {
+	position: absolute;
+	top: 590px;
+	left: 0px;
+	font-size: 1em;
+	color: #fff;
+	-webkit-transform: translateX(760px) rotateY(180deg);
+	-webkit-animation-name: scared;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+}
+#tisz_scared * {
+	display: inline-block;
+	/* Hack for large characters being ourside of rendered space. */
+	padding: .08em .04em;
+	margin: -.08em -.04em;
+}
+#tisz_scared #leye, #tisz_scared #nose, #tisz_scared #reye {
+	-webkit-animation-name: scared_face;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+}
+#tisz_scared #larm {
+	-webkit-animation-name: scared_arms;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+}
+#tisz_scared #rarm {
+	-webkit-animation-name: scared_arms;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+}
