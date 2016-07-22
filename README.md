@@ -3,7 +3,4 @@ tisz
 
 Playing with Parallax Scrolling
 
-
-###Todo
-
-* add to codepen
+[Demo](http://codepen.io/codenamekt/pen/mExamz)
