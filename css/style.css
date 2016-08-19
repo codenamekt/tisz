@@ -40,8 +40,8 @@ div#citybg1 {
 	height: 420px;
 	background-image: url("../imgs/citybg.png");
 	-webkit-animation-name: citybg;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
 }
 div#citybg2 {
 	position: absolute;
@@ -51,8 +51,8 @@ div#citybg2 {
 	height: 420px;
 	background-image: url("../imgs/citybg.png");
 	-webkit-animation-name: citybg;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
 }
 /* City Midground */
 @-webkit-keyframes citymg {
@@ -77,8 +77,8 @@ div#citymg1 {
 	height: 600px;
 	background-image: url("../imgs/citymg.png");
 	-webkit-animation-name: citymg;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
 }
 div#citymg2 {
 	position: absolute;
@@ -88,8 +88,8 @@ div#citymg2 {
 	height: 600px;
 	background-image: url("../imgs/citymg.png");
 	-webkit-animation-name: citymg;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
 }
 .center {
 	text-align: center;
@@ -192,8 +192,8 @@ div#citymg2 {
 	font-size: 1em;
 	color: #fff;
 	-webkit-animation-name: run;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
 }
 #tisz_run * {
 	display: inline-block;
@@ -203,24 +203,14 @@ div#citymg2 {
 }
 #tisz_run #lbody {
 	-webkit-animation-name: lbody_run;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
 }
-/*#tisz_run #leye {
-	-webkit-animation-name: leye_run;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-}*/
 #tisz_run #rbody {
 	-webkit-animation-name: rbody_run;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
 }
-/*#tisz_run #reye {
-	-webkit-animation-name: reye_run;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-}*/
 /* Face Turn */
 @-webkit-keyframes scared_face {
 	0% {
@@ -313,8 +303,8 @@ div#citymg2 {
 	color: #fff;
 	-webkit-transform: translateX(760px) rotateY(180deg);
 	-webkit-animation-name: scared;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
 }
 #tisz_scared * {
 	display: inline-block;
@@ -324,16 +314,16 @@ div#citymg2 {
 }
 #tisz_scared #leye, #tisz_scared #nose, #tisz_scared #reye {
 	-webkit-animation-name: scared_face;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
 }
 #tisz_scared #larm {
 	-webkit-animation-name: scared_arms;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
 }
 #tisz_scared #rarm {
 	-webkit-animation-name: scared_arms;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
 }
